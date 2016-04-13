@@ -1,0 +1,32 @@
+{
+  "name": "thenable-stream",
+  "version": "0.0.0",
+  "description": "Small wrapper for streams that allows them to be treated as promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && covert test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/allouis/thenable-stream.git"
+  },
+  "keywords": [
+    "thenable",
+    "stream",
+    "promise"
+  ],
+  "author": "Fabien O'Carroll <fabien@allou.is>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allouis/thenable-stream/issues"
+  },
+  "homepage": "https://github.com/allouis/thenable-stream#readme",
+  "dependencies": {
+    "concat-stream": "1.5.1"
+  },
+  "devDependencies": {
+    "covert": "1.1.0",
+    "standard": "6.0.8",
+    "tape": "4.5.1"
+  }
+}
